@@ -1,10 +1,10 @@
-# 🤖 Bot de Envio Automático de Mensagens no WhatsApp Web
+# Bot de Envio Automático de Mensagens no WhatsApp Web
 
 Este projeto é um **bot automatizado** que utiliza **Selenium** para enviar mensagens no WhatsApp Web em horários programados, de forma automática e personalizada para diferentes contatos ou grupos.
 
 ---
 
-## 📌 Funcionalidades
+## Funcionalidades
 
 * Envio de mensagens pré-definidas para um ou mais contatos/grupos no WhatsApp Web.
 * Seleção aleatória de mensagens por contato.
@@ -15,7 +15,7 @@ Este projeto é um **bot automatizado** que utiliza **Selenium** para enviar men
 
 ---
 
-## 🛠️ Tecnologias e Bibliotecas
+##  Tecnologias e Bibliotecas
 
 * [Python 3](https://www.python.org/)
 * [Selenium](https://selenium-python.readthedocs.io/)
@@ -24,7 +24,7 @@ Este projeto é um **bot automatizado** que utiliza **Selenium** para enviar men
 
 ---
 
-## 📁 Pré-requisitos
+##  Pré-requisitos
 
 * Google Chrome instalado.
 * Conta ativa no WhatsApp Web previamente logada no Chrome.
@@ -36,7 +36,7 @@ pip install selenium webdriver-manager schedule
 
 ---
 
-## ⚙️ Como usar
+##  Como usar
 
 1. **Clone ou baixe este repositório.**
 
@@ -65,7 +65,7 @@ python nome_do_arquivo.py
 
 ---
 
-## ⏰ Agendamento
+## Agendamento
 
 O envio está agendado para:
 
@@ -77,7 +77,7 @@ Altere o horário conforme necessário.
 
 ---
 
-## 🔐 Observações
+## Observações
 
 * O bot usa o Chrome com seu perfil de usuário padrão. Isso evita a necessidade de escanear o QR code a cada execução.
 * O caminho para o perfil do Chrome é definido automaticamente com:
@@ -86,5 +86,6 @@ Altere o horário conforme necessário.
 options.add_argument(f"user-data-dir={APPDATA}\\AppData\\Local\\Google\\Chrome\\User Data\\Default") #Caso seu sistema esteja em outro idioma ou estrutura de pastas, ajuste este caminho.
 ```
 * Recomenda-se que transforme o arquivo em executavel e coloque para iniciar junto do computador, evitando a necessidade de ativação diária.
+* Futuramente será adicionado uma interface gráfica para melhor controle das funcionalidades.
 
 
